@@ -1,0 +1,11 @@
+<LinearLayout
+    android:background="#4FC3F7"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="Enter water (ml)"
+        android:inputType="number"/>
+
+    <Button android:text="Save Intake"/>
+</LinearLayout>

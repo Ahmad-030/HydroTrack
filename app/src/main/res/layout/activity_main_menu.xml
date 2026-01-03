@@ -1,0 +1,19 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E0F7FA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:text="➕ Add Water Intake"/>
+        <Button android:text="🎯 Daily Target"/>
+        <Button android:text="📈 Progress"/>
+        <Button android:text="📊 History"/>
+        <Button android:text="💡 Tips"/>
+        <Button android:text="ℹ About"/>
+    </LinearLayout>
+</ScrollView>

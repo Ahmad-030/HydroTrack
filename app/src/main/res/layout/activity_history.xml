@@ -1,0 +1,8 @@
+<LinearLayout
+    android:background="#0288D1"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView android:text="History"/>
+    <Button android:text="Clear History"/>
+</LinearLayout>
