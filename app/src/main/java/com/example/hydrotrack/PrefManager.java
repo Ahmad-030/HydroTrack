@@ -29,6 +29,14 @@ public class PrefManager {
         return sp.getInt("target", 0);
     }
 
+    public void setWeight(int weight) {
+        editor.putInt("weight", weight).apply();
+    }
+
+    public int getWeight() {
+        return sp.getInt("weight", 0);
+    }
+
     public void clearAll() {
         editor.clear().apply();
     }

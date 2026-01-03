@@ -1,7 +1,466 @@
-<TextView
-    android:padding="16dp"
-    android:text="
-• Drink water regularly
-• Avoid sugary drinks
-• Carry a water bottle
-• Drink more in hot weather"/>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cyan_bg">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💧 Hydration Tips"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@color/blue_card"/>
+
+    <!-- Tips ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Tip 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Drink at least 8 glasses of water daily 💧"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Start your day with a glass of water ☀️"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Keep a water bottle with you always 🏃"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Drink water before meals 🍽️"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Replace sugary drinks with water ❌🥤"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Infuse water with lemon or cucumber 🍋🥒"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Drink water after exercising 🏋️"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. Monitor your urine color for hydration 💛"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9. Drink water when you feel thirsty 😴"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 10 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10. Eat water-rich fruits and vegetables 🍉🥒"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 11 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11. Set reminders to drink water ⏰"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 12 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12. Use a tracking app to monitor intake 📱"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 13 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13. Avoid excessive caffeine ☕"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 14 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="14. Sip water steadily, don't gulp too fast 💦"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 15 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15. Drink water during long meetings 💼"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 16 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="16. Hydrate before and after flights ✈️"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 17 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="17. Carry a reusable water bottle ♻️"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 18 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18. Drink water when outdoors in heat ☀️"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 19 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19. Use a straw to drink more water easily 🥤"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 20 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20. Add berries for flavor and antioxidants 🫐"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 21 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21. Replace one cup of coffee with water ☕➡️💧"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 22 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="22. Track your daily intake in ml or liters 📏"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 23 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="23. Drink water before going to bed 🌙"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 24 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="24. Drink water in the morning after waking up 🌅"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 25 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="25. Use a hydration tracking bottle if possible 🍶"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 26 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="26. Drink water after consuming salty food 🧂"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+            <!-- Tip 27 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tip_item_background"
+                android:padding="16dp"
+                android:layout_marginBottom="12dp"
+                android:elevation="2dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="27. Hydrate before long drives 🚗"
+                    android:textSize="16sp"
+                    android:textColor="@color/blue_card"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
